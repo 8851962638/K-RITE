@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fab fa-innovatecloud"></i>
+                <span>InnovateFHub</span>
+            </div>
+            <div class="teams">
+                <div class="team">
+                    <i class="fas fa-users"></i>
+                    <span>Design Team</span>
+                </div>
+                <div class="team">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Marketing Team</span>
+                </div>
+                <div class="team">
+                    <i class="fas fa-code"></i>
+                    <span>Development Team</span>
+                </div>
+                <div class="team">
+                    <i class="fas fa-plus-circle"></i>
+                    <span>Create a Team</span>
+                </div>
+            </div>
+            <div class="folders">
+                <div class="folder" data-path="products.html">Products</div>
+                <div class="folder" data-path="roadmap.html">Roadmap</div>
+                <div class="folder" data-path="feedback.html">Feedback</div>
+                <div class="folder" data-path="performance.html">Performance</div>
+                <div class="folder" data-path="team.html">Team</div>
+                <div class="folder" data-path="analytics.html">Analytics</div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="search-bar">
+                <input type="text" placeholder="Search files..." id="searchInput">
+            </div>
+            <div class="project-list">
+                <div class="project">
+                    <div class="project-icon">
+                        <i class="fab fa-wix"></i>
+                    </div>
+                    <div class="project-details">
+                        <h3>Develop a personalized ML...</h3>
+                        <div class="team-members">
+                            <img src="https://via.placeholder.com/30" alt="Member 1">
+                            <img src="https://via.placeholder.com/30" alt="Member 2">
+                        </div>
+                        <div class="categories">
+                            <span class="category">Automation</span>
+                            <span class="category">E-commerce</span>
+                            <span class="category">SaaS</span>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">#DigitalTransformation</span>
+                            <span class="tag">#OmniChannel</span>
+                            <span class="tag">#Agile</span>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <div class="next-meeting">
+                            <i class="fas fa-clock"></i>
+                            <span>in 30 minutes</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
